@@ -30,3 +30,14 @@ footer{
   padding: 10px 15px;
   flex: 1 1 100%;
 }
+section{
+  background-color: aliceblue;
+  display: flex;
+flex-wrap: wrap;
+margin: 15px;
+}
+div{
+  max-width: 150px;
+  margin: 5px;
+  padding: 10px 10px;
+}
