@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+}
+main{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 880px;
+  margin:  0 auto;
+}
+header{
+  padding: 10px 15px;
+  flex: 1 1 100%;
+  background-color: aquamarine;
+ 
+}
+article{
+  padding: 10px 15px;
+  background-color: rgb(124, 124, 239);
+  flex:1 1 0 ;
+}
+aside{
+  padding: 10px 15px;
+  background-color: rgb(173, 97, 244);
+flex: 0 0 250px;
+
+}
+
+footer{
+  background-color: blanchedalmond;
+  padding: 10px 15px;
+  flex: 1 1 100%;
+}
